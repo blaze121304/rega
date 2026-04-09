@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="Z80CpuTest" tests="7" skipped="0" failures="0" errors="0" timestamp="2026-04-09T08:48:49" hostname="DESKTOP-M97RM2K" time="0.021">
+  <properties/>
+  <testcase name="0xFF에 1을 더하면 A는 0이 되고 Carry 플래그가 선다()" classname="Z80CpuTest" time="0.013"/>
+  <testcase name="ADD A,n 즉시값 덧셈이 정확히 동작한다()" classname="Z80CpuTest" time="0.001"/>
+  <testcase name="ADD A,B 실행 후 A에 합산 결과가 저장된다()" classname="Z80CpuTest" time="0.001"/>
+  <testcase name="LD 계열 명령어가 각 레지스터에 값을 정확히 로드한다()" classname="Z80CpuTest" time="0.0"/>
+  <testcase name="양수 오버플로우 발생 시 PV 플래그가 선다()" classname="Z80CpuTest" time="0.0"/>
+  <testcase name="LD A,n 실행 후 A 레지스터에 값이 로드된다()" classname="Z80CpuTest" time="0.0"/>
+  <testcase name="NOP은 PC를 1 증가시키고 4 T-State를 반환한다()" classname="Z80CpuTest" time="0.001"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

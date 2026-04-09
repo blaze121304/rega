@@ -1,0 +1,14 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(gradle --version)",
+      "Bash(where gradle:*)",
+      "Bash(where kotlinc:*)",
+      "Bash(java:*)",
+      "Bash(winget --version)",
+      "Bash(scoop --version)",
+      "Bash(choco --version)",
+      "Bash(winget install:*)"
+    ]
+  }
+}
